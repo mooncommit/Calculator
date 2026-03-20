@@ -44,7 +44,6 @@ public class Main {
             } else if (operator == '*') {
                 result = number1 * number2;
                 System.out.println(result);
-
             } else if (operator == '/') { // 항상 코드는 위에서 아래대로 흐른다 // 범위를 잘보기!!!!
                 result = number1 / number2;
                 System.out.println(result);
@@ -59,7 +58,8 @@ public class Main {
             String exit = scanner.nextLine();
             if (exit.equals("exit")) {
                 System.out.println("프로그램을 종료합니다.");
-                return;
+                break;
+                // return 돌려준다 메서드를 끝낸다.
             }
 
         }

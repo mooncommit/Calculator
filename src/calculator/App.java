@@ -2,7 +2,7 @@ package calculator; // 분석해보기  // Exception(예외)
 
 import java.util.Scanner;
 
-public class Main {
+public class App {
     static void main() {
         Scanner scanner = new Scanner(System.in);
 

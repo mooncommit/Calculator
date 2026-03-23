@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15203f4b-68e4-444e-abef-ff6a72a83c35" name="변경" comment="step 2 완료">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/Calculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="15203f4b-68e4-444e-abef-ff6a72a83c35" name="변경" comment="step 2 완료 최종입니당 ㅎㅎ" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +142,7 @@
       <workItem from="1773915516813" duration="7043000" />
       <workItem from="1773966319944" duration="28982000" />
       <workItem from="1774009030797" duration="2890000" />
-      <workItem from="1774037418309" duration="20501000" />
+      <workItem from="1774037418309" duration="20802000" />
     </task>
     <task id="LOCAL-00001" summary="step 2-1">
       <option name="closed" value="true" />
@@ -188,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774263381563</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="step 2 완료 최종">
+      <option name="closed" value="true" />
+      <created>1774266239893</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774266239893</updated>
+    </task>
+    <task id="LOCAL-00007" summary="step 2 완료 최종입니당 ㅎㅎ">
+      <option name="closed" value="true" />
+      <created>1774266290861</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774266290861</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +222,8 @@
     <MESSAGE value="step 2-1 완료" />
     <MESSAGE value="step 2 완료" />
     <MESSAGE value="rladl 님이 변경한 내용" />
-    <option name="LAST_COMMIT_MESSAGE" value="rladl 님이 변경한 내용" />
+    <MESSAGE value="step 2 완료 최종" />
+    <MESSAGE value="step 2 완료 최종입니당 ㅎㅎ" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 2 완료 최종입니당 ㅎㅎ" />
   </component>
 </project>

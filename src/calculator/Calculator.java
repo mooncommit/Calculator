@@ -20,25 +20,22 @@ public class Calculator {
             result = number1 * number2;
 
         } else if (operator == '/') {
-            if (number2 == 0) {
-                System.out.println("0으로 나눌 수 없습니다.");
-            }
             result = number1 / number2;
-        } else {
-            System.out.println("올바른 사칙연산을 입력해주세요.");
         }
-        return result;
+        return result; // 전달
     }
 
 
     public ArrayList<Integer> getResults() {
         return results;
     }
+
     // void - 리턴값이 없다
     public void setResults() {
         this.results = results;
 
-}
+    }
+
     // remove
     public void removeResult() {
         results.remove(0);

@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15203f4b-68e4-444e-abef-ff6a72a83c35" name="변경" comment="step 2-1 완료">
+    <list default="true" id="15203f4b-68e4-444e-abef-ff6a72a83c35" name="변경" comment="step 2 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/calculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/Calculator.java" afterDir="false" />
-    </list>
-    <list id="d14bf7fd-606a-48cb-bab7-b558959ef2f2" name="hanbyeolyang 님이 변경한 내용" comment="" />
-    <list id="d3962028-8179-4783-bb98-8f6039be53f2" name="rladl 님이 변경한 내용" comment="">
       <change beforePath="$PROJECT_DIR$/src/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,24 +36,6 @@
     &quot;accountId&quot;: &quot;f17d598c-2b1f-45df-862c-28b782b32b3e&quot;
   }
 }</component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/calculator/Calculator.java">
-      <ranges>
-        <range start1="3" end1="4" start2="3" end2="3" changelist="15203f4b-68e4-444e-abef-ff6a72a83c35" />
-        <range start1="6" end1="6" start2="5" end2="6" changelist="d3962028-8179-4783-bb98-8f6039be53f2" />
-        <range start1="7" end1="8" start2="7" end2="7" changelist="d3962028-8179-4783-bb98-8f6039be53f2" />
-        <range start1="15" end1="16" start2="14" end2="15" changelist="15203f4b-68e4-444e-abef-ff6a72a83c35" />
-        <range start1="18" end1="19" start2="17" end2="18" changelist="15203f4b-68e4-444e-abef-ff6a72a83c35" />
-        <range start1="21" end1="23" start2="20" end2="25" changelist="15203f4b-68e4-444e-abef-ff6a72a83c35" />
-        <range start1="24" end1="25" start2="26" end2="26" changelist="15203f4b-68e4-444e-abef-ff6a72a83c35" />
-        <range start1="26" end1="27" start2="27" end2="28" changelist="15203f4b-68e4-444e-abef-ff6a72a83c35" />
-        <range start1="28" end1="30" start2="29" end2="30" changelist="15203f4b-68e4-444e-abef-ff6a72a83c35" />
-        <range start1="32" end1="32" start2="32" end2="33" changelist="15203f4b-68e4-444e-abef-ff6a72a83c35" />
-        <range start1="34" end1="35" start2="35" end2="36" changelist="d3962028-8179-4783-bb98-8f6039be53f2" />
-        <range start1="39" end1="39" start2="40" end2="44" changelist="15203f4b-68e4-444e-abef-ff6a72a83c35" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -168,7 +146,7 @@
       <workItem from="1773915516813" duration="7043000" />
       <workItem from="1773966319944" duration="28982000" />
       <workItem from="1774009030797" duration="2890000" />
-      <workItem from="1774037418309" duration="17532000" />
+      <workItem from="1774037418309" duration="20501000" />
     </task>
     <task id="LOCAL-00001" summary="step 2-1">
       <option name="closed" value="true" />
@@ -194,7 +172,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774254464866</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="step 2 완료">
+      <option name="closed" value="true" />
+      <created>1774263300678</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774263300678</updated>
+    </task>
+    <task id="LOCAL-00005" summary="rladl 님이 변경한 내용">
+      <option name="closed" value="true" />
+      <created>1774263381563</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774263381563</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +208,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="step 2-1" />
     <MESSAGE value="step 2-1 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 2-1 완료" />
+    <MESSAGE value="step 2 완료" />
+    <MESSAGE value="rladl 님이 변경한 내용" />
+    <option name="LAST_COMMIT_MESSAGE" value="rladl 님이 변경한 내용" />
   </component>
 </project>

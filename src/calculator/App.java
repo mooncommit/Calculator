@@ -6,9 +6,12 @@ public class App {
     static void main() {
         Calculator calculator = new Calculator();
 
+
         Scanner scanner = new Scanner(System.in);
 
         while (true) { // 종결조건식이 true 일 때 무한반복 / break로 빠져나가기
+
+
 
             System.out.print("첫 번째 양의 정수를 입력해보세요 : ");
             int number1 = scanner.nextInt(); // 예외처리 필요
@@ -32,6 +35,7 @@ public class App {
             int result = calculator.calculator(number1, number2, operator);
 
 
+
             if (number2 == 0 && operator == '/') {
                 System.out.println("0으로 나눌수가 없습니다.");
                 continue;
@@ -49,7 +53,12 @@ public class App {
                 // return 돌려준다 메서드를 끝낸다.
             }
 
+
+
         }
+        System.out.println("List : " + calculator.getResults());
+        // 게터를 활용하는 이용하는 이유
+        // 프로그램을 종료하기 전까지의 기록을 보여준다.
 
     }
 }

@@ -3,8 +3,8 @@ package calculator;
 import java.util.ArrayList;
 
 public class Calculator {
-    private ArrayList<Integer> results = new ArrayList<>();
 
+    private ArrayList<Integer> results = new ArrayList<>();
 
     public int calculator(int number1, int number2, char operator) {
 
@@ -33,7 +33,7 @@ public class Calculator {
 
     public ArrayList<Integer> getResults() {
         return results;
-}
+    }
     // void - 리턴값이 없다
     public void setResults() {
         this.results = results;

@@ -9,7 +9,6 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         while (true) { // 종결조건식이 true 일 때 무한반복 / break로 빠져나가기
-
             System.out.print("첫 번째 양의 정수를 입력해보세요 : ");
             int number1 = scanner.nextInt(); // 예외처리 필요
             if (number1 < 0) {

@@ -27,17 +27,32 @@ public class App {
             char operator = scanner.next().charAt(0);
 
 
-            // 값을 불러오기
-            int result = calculator.calculator(number1, number2, operator);
-
-
-            if (number2 == 0 && operator == '/') {
-                System.out.println("0으로 나눌수가 없습니다.");
+            if (operator == '/' && number2 == 0) {
+                System.out.println("0으로 나눌 수 없습니다.");
                 continue;
             }
 
+            // 계산 실행
+            int result = calculator.calculator(number1, number2, operator);
+
+            // 결과 출력
+            System.out.println("결과 : " + result);
+
+            // Calculator 클래스의 results 리스트에 저장도 해봐요
+            calculator.addResults(result);
+
+            // 지금까지의 결과 목록 출력
+            System.out.println("List : " + calculator.getResults()); // 게터 활용!
 
             scanner.nextLine();
+            System.out.print("첫 번째 항목을 지우시겠습니까? (yes/no) : ");
+            String remove = scanner.nextLine();
+            if (remove.equals("yes")) {
+                calculator.removeResult();
+                System.out.println("삭제 완료! 현재 List : " + calculator.getResults());
+            }
+
+
             // exit 을 입력받으면 프로그램 종료
             System.out.println("exit를 입력하면 프로그램을 종료하겠습니다.");
             System.out.print("계속 진행하시려면 아무거나 입력해주세요 : ");

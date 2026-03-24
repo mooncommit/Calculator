@@ -1,66 +1,56 @@
-package calculator; // 분석해보기  // Exception(예외)
+package calculator;
 
+import java.lang.management.OperatingSystemMXBean;
 import java.util.Scanner;
 
 public class App {
     static void main() {
+
         Calculator calculator = new Calculator();
 
         Scanner scanner = new Scanner(System.in);
 
-        while (true) { // 종결조건식이 true 일 때 무한반복 / break로 빠져나가기
-            System.out.print("첫 번째 양의 정수를 입력해보세요 : ");
-            int number1 = scanner.nextInt(); // 예외처리 필요
-            if (number1 < 0) {
-                System.out.println("양의 정수를 입력하세요");
-                continue; // 다시 처음으로
-            }
-
-            System.out.print("두 번째 양의 정수를 입력해보세요 : ");
-            int number2 = scanner.nextInt();
-            if (number2 < 0) {
-                System.out.println("양의 정수를 입력하세요");
-                continue; // 다시 처음으로 돌아가기
-            }
-
-            System.out.print("사칙연산 기호를 입력하세요 : ");
-            char operator = scanner.next().charAt(0);
-
-
-            if (operator == '/' && number2 == 0) {
-                System.out.println("0으로 나눌 수 없습니다.");
+        while (true) {
+            System.out.println("첫 번째 양의 정수를 입력하세요 : ");
+            int first = scanner.nextInt();
+            if (first < 0) {
+                System.out.println("양의 정수를 입력해주세요.");
                 continue;
             }
 
-            // 계산 실행
-            int result = calculator.calculator(number1, number2, operator);
-
-            // 결과 출력
-            System.out.println("결과 : " + result);
-
-            // Calculator 클래스의 results 리스트에 저장도 해봐요
-            calculator.addResults(result);
-
-            // 지금까지의 결과 목록 출력
-            System.out.println("List : " + calculator.getResults()); // 게터 활용!
-
-            scanner.nextLine();
-            System.out.print("첫 번째 항목을 지우시겠습니까? (yes/no) : ");
-            String remove = scanner.nextLine();
-            if (remove.equals("yes")) {
-                calculator.removeResult();
-                System.out.println("삭제 완료! 현재 List : " + calculator.getResults());
+            System.out.println("두 번째 양의 정수를 입력하세요 : ");
+            int second = scanner.nextInt();
+            if (second < 0) {
+                System.out.println("양의 정수를 입력해주세요.");
+                continue;
             }
 
+            System.out.println("사진연산 기호를 입력하세요 : ");
+            char operator = scanner.next().charAt(0);
 
-            // exit 을 입력받으면 프로그램 종료
-            System.out.println("exit를 입력하면 프로그램을 종료하겠습니다.");
-            System.out.print("계속 진행하시려면 아무거나 입력해주세요 : ");
-            String exit = scanner.nextLine();
-            if (exit.equals("exit")) {
+            int result = calculator.calculator(first, second, operator);
+            System.out.println("결과 : " + result);
+
+            System.out.println("기록을 조회하시겠습니까?(yes 입력 시 조회) : ");
+            String yes = scanner.next();
+            if (yes.equals("yes")) {
+                System.out.println("List : " + calculator.getResults());
+            }
+
+            System.out.println("첫 번째 기록을 삭제하시겠습니까?(yes 입력 시 삭제) : ");
+            String yes2 = scanner.next();
+            if (yes2.equals("yes")) {
+                calculator.removeResults();
+                System.out.println("삭제 완료");
+            }
+
+            System.out.println("현재 List : " + calculator.getResults());
+
+            System.out.println("종료하려면 exit를 입력해주세요(아무거나 입력 시 계속) : ");
+            String exit = scanner.next();
+            if(exit.equals("exit")) {
                 System.out.println("프로그램을 종료합니다.");
                 break;
-                // return 돌려준다 메서드를 끝낸다.
             }
 
         }

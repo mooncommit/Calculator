@@ -8,6 +8,7 @@ public class Calculator {
 
     public int calculator(int number1, int number2, char operator) {
 
+
         int result = 0;
 
         if (operator == '+') {

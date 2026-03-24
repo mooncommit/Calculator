@@ -19,17 +19,8 @@ public class Calculator {
             case '*' : result = first * second;
                 break;
 
-            case  '/' :
-                if (second == 0) {
-                    System.out.println("0으로 나눌 수 없습니다.");
-                    break;
-
-                } else {
-                    result = first / second;
-                    break;
-                }
-            default:
-                System.out.println("올바른 사칙연산을 입력해주세요.");
+            case  '/' : result = first / second;
+            break;
         }
         results.add(result);
         return result;

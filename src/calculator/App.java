@@ -25,8 +25,18 @@ public class App {
                 continue;
             }
 
-            System.out.println("사진연산 기호를 입력하세요 : ");
+            System.out.println("사칙연산 기호를 입력하세요 : ");
             char operator = scanner.next().charAt(0);
+
+            if (!(operator == '+' || operator == '-' || operator == '*' || operator == '/')) {
+                System.out.println("올바른 사칙연산 기호를 입력해주세요.");
+                continue;
+            }
+
+            if (operator == '/' && second == 0) {
+                System.out.println("0으로 나눌 수 없습니다.");
+                continue;
+            }
 
             int result = calculator.calculator(first, second, operator);
             System.out.println("결과 : " + result);

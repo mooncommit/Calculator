@@ -4,7 +4,7 @@ import java.lang.management.OperatingSystemMXBean;
 import java.util.Scanner;
 
 public class App {
-    static void main() {
+    public static void main(String[] args) {
 
         Calculator calculator = new Calculator();
 
@@ -38,7 +38,7 @@ public class App {
                 continue;
             }
 
-            int result = calculator.calculator(first, second, operator);
+            int result = calculator.calculator(first, second, Four.fromChar(operator));
             System.out.println("결과 : " + result);
 
             System.out.println("기록을 조회하시겠습니까?(yes 입력 시 조회) : ");
